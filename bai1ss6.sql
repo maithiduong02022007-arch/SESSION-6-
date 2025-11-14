@@ -1,0 +1,13 @@
+CREATE DATABASE QuanLyThuVien;
+USE `quan_ly_thu_vien`;
+CREATE TABLE TacGia (
+MaTacGia INT PRIMARY KEY auto_increment,
+TenTacGia VARCHAR(100) NOT NULL,
+QuocTich VARCHAR (50)
+);
+CREATE TABLE DocGia (
+MaDocGia INT PRIMARY KEY AUTO_INCREMENT,
+TenDocGia VARCHAR ( 100) NOT NULL,
+DiaChi VARCHAR ( 225),
+SoDienThoai VARCHAR (15) UNIQUE
+); 
